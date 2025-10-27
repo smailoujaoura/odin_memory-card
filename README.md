@@ -3,6 +3,15 @@
   - Scores would just display the scores based on the props passed to them and will be using useRef; need to learn about useRef
   - Cards has all the logic for the "game" fetching the (photos, names) and passing them for each card to display; each card knows how many times it was clicked on by? 
 
+<!-- No plan ever comes to existence as pictured; a lot of times it turns out better, but sometimes worse. -->
+<!-- " - there is a current score which we increment when the user clicks on a flag that he hasn't clicked on yet 
+  - so we have to keep a record of the things the user clicks on in a set
+  - we also use this score for best score when it exceeds best score
+- if user clicks on same flag he has clicked on in the round we rerender everything so there should be clicked on countries; re-render("lost" boolean or state passed down from app);  " -->
+
+- future features: 
+  - scroll bar
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
